@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration
 class BeanConfig {
 
     @Bean
-    fun newArrivalMap(): HashMap<String, String>{
+    fun newArrivalMap(): HashMap<String, Long>{
         return HashMap()
     }
 }
